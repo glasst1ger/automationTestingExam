@@ -1,6 +1,4 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import pages.HomePage;
@@ -26,7 +24,8 @@ public class LoginPageTest {
     }
 
     @Test
-    public void successfulRegistrationTest() throws IOException {
+    @Order(1)
+    public void registrationTest() throws IOException {
         homePage.navigateToHomePage();
         homePage.loginPage(driver);
         loginPage.inputToEmailAddressField();
@@ -37,7 +36,17 @@ public class LoginPageTest {
     }
 
     @Test
-    public void setSuccessfulLoginTest() {
+    @Order(2)
+    public void logoutTest() {
+        loginPage.logout();
+        String loginText = driver.findElement(homePage.loginPageSelector).getText();
+        
+        assertEquals("Sign in", loginText);
+    }
+
+    @Test
+    @Order(3)
+    public void loginTest() {
         homePage.navigateToHomePage();
         homePage.loginPage(driver);
         loginPage.fillOutLoginDetails(loginPage.accounts());
@@ -45,8 +54,8 @@ public class LoginPageTest {
         assertEquals(successfulLoginText, driver.findElement(successfulLoginTextSelector).getText());
     }
 
-    @AfterEach
-    public void tearDown() {
+    @AfterAll
+    public static void tearDown() {
         Utils.tearDown();
     }
 }

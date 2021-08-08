@@ -11,6 +11,8 @@ import java.util.Scanner;
 
 public class LoginPage {
 
+    HomePage homePage;
+
     private WebDriver driver;
     private Faker faker = new Faker();
     private By EMAIL_ADDRESS_FIELD = By.cssSelector("#email_create");
@@ -34,6 +36,7 @@ public class LoginPage {
     private By LOG_EMAIL = By.id("email");
     private By LOG_PASSWORD = By.id("passwd");
     private By LOG_LOGIN_BUTTON = By.id("SubmitLogin");
+    private By LOGOUT_BUTTON = By.cssSelector(".logout");
 
 
     private String customer_firstname = faker.name().firstName();
@@ -124,6 +127,10 @@ public class LoginPage {
         driver.findElement(LOG_EMAIL).sendKeys(accounts[0]);
         driver.findElement(LOG_PASSWORD).sendKeys(accounts[1]);
         driver.findElement(LOG_LOGIN_BUTTON).click();
+    }
+
+    public void logout() {
+        driver.findElement(LOGOUT_BUTTON).click();
     }
 
 }
