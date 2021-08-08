@@ -8,6 +8,7 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class LoginPageTest {
 
     WebDriver driver;
@@ -40,7 +41,7 @@ public class LoginPageTest {
     public void logoutTest() {
         loginPage.logout();
         String loginText = driver.findElement(homePage.loginPageSelector).getText();
-        
+
         assertEquals("Sign in", loginText);
     }
 
