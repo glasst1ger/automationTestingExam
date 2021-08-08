@@ -1,0 +1,2 @@
+# automationTestingExam
+Szakálos Viktor vizsgaremek
