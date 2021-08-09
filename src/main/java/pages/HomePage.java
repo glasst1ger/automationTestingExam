@@ -7,7 +7,7 @@ public class HomePage {
 
     WebDriver driver;
     public By loginPageSelector = By.cssSelector(".login");
-    public static final String URL = "http://automationpractice.com/index.php";
+    public final String URL = "http://automationpractice.com/index.php";
 
     public HomePage(WebDriver driver) {
         this.driver = driver;

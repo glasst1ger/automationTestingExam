@@ -13,41 +13,41 @@ public class LoginPage {
 
     HomePage homePage;
 
-    private WebDriver driver;
-    private Faker faker = new Faker();
-    private By EMAIL_ADDRESS_FIELD = By.cssSelector("#email_create");
-    private By CREATE_ACCOUNT_BUTTON = By.cssSelector("#SubmitCreate span");
-    private By REG_ID = By.id("id_gender1");
-    private By REG_CUSTOMER_FIRSTNAME = By.id("customer_firstname");
-    private By REG_CUSTOMER_LASTNAME = By.id("customer_lastname");
-    private By REG_PASSWORD_FIELD = By.id("passwd");
-    private By REG_SELECT_DATE_OF_BIRTH_DAY = By.id("days");
-    private By REG_SELECT_DATE_OF_BIRTH_MONTHS = By.id("months");
-    private By REG_SELECT_DATE_OF_BIRTH_YEARS = By.id("years");
-    private By REG_ADDRESS_FIRSTNAME = By.id("firstname");
-    private By REG_ADDRESS_LASTNAME = By.id("lastname");
-    private By REG_ADDRESS_STREET = By.id("address1");
-    private By REG_ADDRESS_CITY = By.id("city");
-    private By REG_SELECT_STATE = By.id("id_state");
-    private By REG_POSTCODE = By.id("postcode");
-    private By REG_MOBILE_PHONE = By.id("phone_mobile");
-    private By REG_ALIAS = By.id("alias");
-    private By REG_REGISTER_BUTTON = By.id("submitAccount");
-    private By LOG_EMAIL = By.id("email");
-    private By LOG_PASSWORD = By.id("passwd");
-    private By LOG_LOGIN_BUTTON = By.id("SubmitLogin");
-    private By LOGOUT_BUTTON = By.cssSelector(".logout");
+    private final WebDriver driver;
+    private final Faker faker = new Faker();
+    private final By EMAIL_ADDRESS_FIELD = By.cssSelector("#email_create");
+    private final By CREATE_ACCOUNT_BUTTON = By.cssSelector("#SubmitCreate span");
+    private final By REG_ID = By.id("id_gender1");
+    private final By REG_CUSTOMER_FIRSTNAME = By.id("customer_firstname");
+    private final By REG_CUSTOMER_LASTNAME = By.id("customer_lastname");
+    private final By REG_PASSWORD_FIELD = By.id("passwd");
+    private final By REG_SELECT_DATE_OF_BIRTH_DAY = By.id("days");
+    private final By REG_SELECT_DATE_OF_BIRTH_MONTHS = By.id("months");
+    private final By REG_SELECT_DATE_OF_BIRTH_YEARS = By.id("years");
+    private final By REG_ADDRESS_FIRSTNAME = By.id("firstname");
+    private final By REG_ADDRESS_LASTNAME = By.id("lastname");
+    private final By REG_ADDRESS_STREET = By.id("address1");
+    private final By REG_ADDRESS_CITY = By.id("city");
+    private final By REG_SELECT_STATE = By.id("id_state");
+    private final By REG_POSTCODE = By.id("postcode");
+    private final By REG_MOBILE_PHONE = By.id("phone_mobile");
+    private final By REG_ALIAS = By.id("alias");
+    private final By REG_REGISTER_BUTTON = By.id("submitAccount");
+    private final By LOG_EMAIL = By.id("email");
+    private final By LOG_PASSWORD = By.id("passwd");
+    private final By LOG_LOGIN_BUTTON = By.id("SubmitLogin");
+    private final By LOGOUT_BUTTON = By.cssSelector(".logout");
 
 
-    private String customer_firstname = faker.name().firstName();
-    private String customer_lastname = faker.name().lastName();
-    private String customer_email_address = customer_firstname + customer_lastname + "@gmail.com";
-    private String password = String.valueOf(randomFiveNumbers());
-    private String customer_street = faker.address().streetAddress();
-    private String customer_city = faker.address().city();
-    private String customer_street_alias = faker.address().streetAddress();
-    private String postcode = String.valueOf(randomFiveNumbers());
-    private String mobilePhoneNumber = String.valueOf(faker.number().randomDigit());
+    private final String customer_firstname = faker.name().firstName();
+    private final String customer_lastname = faker.name().lastName();
+    private final String customer_email_address = customer_firstname + customer_lastname + "@gmail.com";
+    private final String password = String.valueOf(randomFiveNumbers());
+    private final String customer_street = faker.address().streetAddress();
+    private final String customer_city = faker.address().city();
+    private final String customer_street_alias = faker.address().streetAddress();
+    private final String postcode = String.valueOf(randomFiveNumbers());
+    private final String mobilePhoneNumber = String.valueOf(faker.number().randomDigit());
 
 
     public LoginPage(WebDriver driver) {

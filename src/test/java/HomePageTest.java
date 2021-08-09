@@ -5,11 +5,9 @@ import org.openqa.selenium.WebDriver;
 import pages.HomePage;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class HomePageTest {
 
-    Utils utils;
     HomePage homePage;
     WebDriver driver;
 
@@ -22,8 +20,8 @@ public class HomePageTest {
 
     @Test
     public void correctHomePageUrlTest() {
-        driver.get(HomePage.URL);
-        String homeUrl = HomePage.URL;
+        driver.get(homePage.URL);
+        String homeUrl = homePage.URL;
         assertEquals(homeUrl, driver.getCurrentUrl());
     }
 
