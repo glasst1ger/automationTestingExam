@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import pages.HomePage;
@@ -19,6 +20,7 @@ public class HomePageTest {
 
 
     @Test
+    @DisplayName("")
     public void correctHomePageUrlTest() {
         driver.get(homePage.URL);
         String homeUrl = homePage.URL;

@@ -15,9 +15,6 @@ public class LoginPageTest {
     HomePage homePage = new HomePage(Utils.getDriver());
     LoginPage loginPage = new LoginPage(Utils.getDriver());
 
-    private final By successfulLoginTextSelector = By.cssSelector(".info-account");
-    private final String successfulLoginText = "Welcome to your account. Here you can manage all of your personal information and orders.";
-
     @BeforeEach
     public void setUp() {
         this.driver = Utils.getDriver();
@@ -33,7 +30,7 @@ public class LoginPageTest {
         loginPage.clickCreateAccountButton();
         loginPage.fillOutAccountDetails();
 
-        assertEquals(successfulLoginText, driver.findElement(successfulLoginTextSelector).getText());
+        assertEquals(loginPage.successfulLoginText, driver.findElement(loginPage.SUCCESSFUL_LOGIN_INDICATOR).getText());
     }
 
     @Test
@@ -47,12 +44,12 @@ public class LoginPageTest {
 
     @Test
     @Order(3)
-    public void loginTest() {
+    public void loginTest(){
         homePage.navigateToHomePage();
         homePage.loginPage(driver);
         loginPage.fillOutLoginDetails(loginPage.accounts());
 
-        assertEquals(successfulLoginText, driver.findElement(successfulLoginTextSelector).getText());
+        assertEquals(loginPage.successfulLoginText, driver.findElement(loginPage.SUCCESSFUL_LOGIN_INDICATOR).getText());
     }
 
     @AfterAll

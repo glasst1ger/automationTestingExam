@@ -6,8 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.*;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class LoginPage {
 
@@ -15,6 +14,9 @@ public class LoginPage {
 
     private final WebDriver driver;
     private final Faker faker = new Faker();
+    Random randomGenerator = new Random();
+
+
     private final By EMAIL_ADDRESS_FIELD = By.cssSelector("#email_create");
     private final By CREATE_ACCOUNT_BUTTON = By.cssSelector("#SubmitCreate span");
     private final By REG_ID = By.id("id_gender1");
@@ -37,11 +39,13 @@ public class LoginPage {
     private final By LOG_PASSWORD = By.id("passwd");
     private final By LOG_LOGIN_BUTTON = By.id("SubmitLogin");
     private final By LOGOUT_BUTTON = By.cssSelector(".logout");
+    public final By SUCCESSFUL_LOGIN_INDICATOR = By.cssSelector(".info-account");
 
 
+    public final String successfulLoginText = "Welcome to your account. Here you can manage all of your personal information and orders.";
     private final String customer_firstname = faker.name().firstName();
     private final String customer_lastname = faker.name().lastName();
-    private final String customer_email_address = customer_firstname + customer_lastname + "@gmail.com";
+    private final String customer_email_address = (customer_firstname + customer_lastname + "@gmail.com").toLowerCase();
     private final String password = String.valueOf(randomFiveNumbers());
     private final String customer_street = faker.address().streetAddress();
     private final String customer_city = faker.address().city();
@@ -55,14 +59,14 @@ public class LoginPage {
     }
 
     public void saveAccountsToFile() throws IOException {
-        FileWriter writer = new FileWriter("accounts.txt");
+        FileWriter writer = new FileWriter("accounts.txt", true);
         BufferedWriter bufferedWriter = new BufferedWriter(writer);
-        bufferedWriter.write(customer_email_address + ", " + password);
+        bufferedWriter.append(customer_email_address).append(", ").append(password).append("\n");
         bufferedWriter.close();
     }
 
     public int randomFiveNumbers() {
-        Random randomGenerator = new Random();
+
         int low = 10000;
         int high = 99999;
         return randomGenerator.nextInt(high - low) + low;
@@ -107,13 +111,19 @@ public class LoginPage {
 
     public String[] accounts() {
         String[] accounts = new String[1];
+        int fileLength = 0;
         try {
             File file = new File("accounts.txt");
             Scanner myReader = new Scanner(file);
             while (myReader.hasNextLine()) {
+                ++fileLength;
                 String line = myReader.nextLine();
-                accounts = line.split(",");
+                if (randomGenerator.nextInt(fileLength) == 0) {
+                    accounts = line.split(",");
+                }
+
             }
+            myReader.close();
 
         } catch (FileNotFoundException e) {
 
