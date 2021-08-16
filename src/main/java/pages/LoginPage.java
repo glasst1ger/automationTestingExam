@@ -139,8 +139,19 @@ public class LoginPage {
         driver.findElement(LOG_LOGIN_BUTTON).click();
     }
 
+    public void login() {
+        HomePage homePage = new HomePage(driver);
+        homePage.navigateToHomePage();
+        homePage.loginPage(driver);
+        fillOutLoginDetails(accounts());
+    }
+
     public void logout() {
         driver.findElement(LOGOUT_BUTTON).click();
+    }
+
+    public void changeAddress() {
+
     }
 
 }

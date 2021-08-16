@@ -63,8 +63,8 @@ public class TermsAndConditionsTest {
 
     }
 
-    @AfterEach
-    public void tearDown() {
+    @AfterAll
+    static void tearDown() {
         Utils.tearDown();
     }
 }

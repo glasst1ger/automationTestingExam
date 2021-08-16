@@ -42,16 +42,14 @@ public class LoginPageTest {
         loginPage.logout();
         String loginText = driver.findElement(homePage.loginPageSelector).getText();
 
-        assertEquals("Sign in", loginText);
+        assertEquals("Sign in", loginText); //sign-in szöveget átvinni loginpage-be
     }
 
     @Test
     @Order(3)
     @DisplayName("")
-    public void loginTest(){
-        homePage.navigateToHomePage();
-        homePage.loginPage(driver);
-        loginPage.fillOutLoginDetails(loginPage.accounts());
+    public void loginTest() {
+        loginPage.login();
 
         assertEquals(loginPage.successfulLoginText, driver.findElement(loginPage.SUCCESSFUL_LOGIN_INDICATOR).getText());
     }
