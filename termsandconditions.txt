@@ -1,0 +1,7 @@
+TERMS AND CONDITIONS OF USE
+RULE 1
+Use this website for all our practices of automation scripts. We (seleniumframework.com) have gone a long way to invest in creating this website and providing excellent experience for you to have a practice platform
+RULE 2
+Please try not spamming on this website. Also do not hit this website through a cron job or scheduled job that runs continuously. You might be taking away opportunity for other folks who may be using this website.
+RULE 3
+Your feedback is the most critical piece of advice that we would appreciate. Please write to support@seleniumframework.com or support@automationpractice.com

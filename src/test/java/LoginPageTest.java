@@ -9,6 +9,7 @@ import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+
 public class LoginPageTest {
 
     WebDriver driver;
@@ -23,6 +24,7 @@ public class LoginPageTest {
 
     @Test
     @Order(1)
+    @DisplayName("")
     public void registrationTest() throws IOException {
         homePage.navigateToHomePage();
         homePage.loginPage(driver);
@@ -35,6 +37,7 @@ public class LoginPageTest {
 
     @Test
     @Order(2)
+    @DisplayName("")
     public void logoutTest() {
         loginPage.logout();
         String loginText = driver.findElement(homePage.loginPageSelector).getText();
@@ -44,6 +47,7 @@ public class LoginPageTest {
 
     @Test
     @Order(3)
+    @DisplayName("")
     public void loginTest(){
         homePage.navigateToHomePage();
         homePage.loginPage(driver);
