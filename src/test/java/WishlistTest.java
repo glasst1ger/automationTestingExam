@@ -12,7 +12,6 @@ import static org.junit.jupiter.api.Assertions.*;
 public class WishlistTest {
 
     WebDriver driver;
-    HomePage homePage = new HomePage(Utils.getDriver());
     LoginPage loginPage = new LoginPage(Utils.getDriver());
     Wishlist wishlist = new Wishlist(Utils.getDriver());
 
