@@ -28,8 +28,8 @@ public class LoginPage {
     private final By REG_SELECT_DATE_OF_BIRTH_YEARS = By.id("years");
     private final By REG_ADDRESS_FIRSTNAME = By.id("firstname");
     private final By REG_ADDRESS_LASTNAME = By.id("lastname");
-    private final By REG_ADDRESS_STREET = By.id("address1");
-    private final By REG_ADDRESS_CITY = By.id("city");
+    public final By REG_ADDRESS_STREET = By.id("address1");
+    public final By REG_ADDRESS_CITY = By.id("city");
     private final By REG_SELECT_STATE = By.id("id_state");
     private final By REG_POSTCODE = By.id("postcode");
     private final By REG_MOBILE_PHONE = By.id("phone_mobile");
@@ -47,8 +47,8 @@ public class LoginPage {
     private final String customer_lastname = faker.name().lastName();
     private final String customer_email_address = (customer_firstname + customer_lastname + "@gmail.com").toLowerCase();
     private final String password = String.valueOf(randomFiveNumbers());
-    private final String customer_street = faker.address().streetAddress();
-    private final String customer_city = faker.address().city();
+    public final String customer_street = faker.address().streetAddress();
+    public final String customer_city = faker.address().streetAddress();
     private final String customer_street_alias = faker.address().streetAddress();
     private final String postcode = String.valueOf(randomFiveNumbers());
     private final String mobilePhoneNumber = String.valueOf(faker.number().randomDigit());
@@ -150,8 +150,5 @@ public class LoginPage {
         driver.findElement(LOGOUT_BUTTON).click();
     }
 
-    public void changeAddress() {
-
-    }
 
 }

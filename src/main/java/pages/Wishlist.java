@@ -48,7 +48,7 @@ public class Wishlist {
 
         driver.findElement(GET_TO_MY_ACCOUNT).click();
         driver.findElement(WISHLIST_MANAGER).click();
-        driver.navigate().refresh();
+
         return isTheProductOnTheWishlist();
 
     }
