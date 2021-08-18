@@ -3,75 +3,41 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#email_create\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-270', ip: '10.1.1.80', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.uD7Rbl}, goog:chromeOptions: {debuggerAddress: localhost:43591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4a9f4b252d9d117869cf8badcab26ab5\n*** Element info: {Using=css selector, value=#email_create}",
-      "children" : [ {
-        "name" : "Automated registration test with randomized data",
-        "uid" : "5fe4dc8c42a0ea10",
-        "parentUid" : "5f77baff001fce172b5de26d4c02af3a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629289375654,
-          "stop" : 1629289402612,
-          "duration" : 26958
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5f77baff001fce172b5de26d4c02af3a"
-    }, {
-      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".logout\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-270', ip: '10.1.1.80', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.uD7Rbl}, goog:chromeOptions: {debuggerAddress: localhost:43591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4a9f4b252d9d117869cf8badcab26ab5\n*** Element info: {Using=css selector, value=.logout}",
-      "children" : [ {
-        "name" : "Logout test after a successful registration test",
-        "uid" : "22e70b736e76054b",
-        "parentUid" : "3a2b7c47603bced7217122a88a43753b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629289402737,
-          "stop" : 1629289422798,
-          "duration" : 20061
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3a2b7c47603bced7217122a88a43753b"
-    }, {
-      "name" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-270', ip: '10.1.1.80', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.uD7Rbl}, goog:chromeOptions: {debuggerAddress: localhost:43591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4a9f4b252d9d117869cf8badcab26ab5",
+      "name" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.1.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zhgCR3}, goog:chromeOptions: {debuggerAddress: localhost:41091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fff0b6267597add1a664aaa92dfb26a",
       "children" : [ {
         "name" : "addressChangeTest()",
-        "uid" : "b6174690db0a2319",
-        "parentUid" : "432e028a78079d080f135191dbd290e3",
+        "uid" : "df74a1e88ef59ec",
+        "parentUid" : "2e83f876d1d2dc76498fa782a09b9e9f",
         "status" : "broken",
         "time" : {
-          "start" : 1629289451150,
-          "stop" : 1629289451160,
-          "duration" : 10
+          "start" : 1629290070953,
+          "stop" : 1629290070975,
+          "duration" : 22
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Website up and running test",
-        "uid" : "5caa0056d86b7c12",
-        "parentUid" : "432e028a78079d080f135191dbd290e3",
+        "uid" : "df860bed8f01affa",
+        "parentUid" : "2e83f876d1d2dc76498fa782a09b9e9f",
         "status" : "broken",
         "time" : {
-          "start" : 1629289451172,
-          "stop" : 1629289451208,
-          "duration" : 36
+          "start" : 1629290071007,
+          "stop" : 1629290071035,
+          "duration" : 28
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "getTermsAndConditions()",
-        "uid" : "94f4be2a2f5491b0",
-        "parentUid" : "432e028a78079d080f135191dbd290e3",
+        "uid" : "32cdda561f23fdd8",
+        "parentUid" : "2e83f876d1d2dc76498fa782a09b9e9f",
         "status" : "broken",
         "time" : {
-          "start" : 1629289451227,
-          "stop" : 1629289451241,
+          "start" : 1629290071044,
+          "stop" : 1629290071058,
           "duration" : 14
         },
         "flaky" : false,
@@ -79,58 +45,58 @@
         "parameters" : [ ]
       }, {
         "name" : "isTermsAndConditionsPageEmpty()",
-        "uid" : "9010cb34be45cbbc",
-        "parentUid" : "432e028a78079d080f135191dbd290e3",
+        "uid" : "b7900e6c655d805d",
+        "parentUid" : "2e83f876d1d2dc76498fa782a09b9e9f",
         "status" : "broken",
         "time" : {
-          "start" : 1629289451244,
-          "stop" : 1629289451253,
-          "duration" : 9
+          "start" : 1629290071061,
+          "stop" : 1629290071071,
+          "duration" : 10
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "listScrollTest()",
-        "uid" : "37eef9ba9eb56179",
-        "parentUid" : "432e028a78079d080f135191dbd290e3",
+        "uid" : "b62b3ad3eb4f13f5",
+        "parentUid" : "2e83f876d1d2dc76498fa782a09b9e9f",
         "status" : "broken",
         "time" : {
-          "start" : 1629289451263,
-          "stop" : 1629289451280,
-          "duration" : 17
+          "start" : 1629290071087,
+          "stop" : 1629290071111,
+          "duration" : 24
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "removeFromWishlistTest()",
-        "uid" : "bfc4a96bde5a2fd9",
-        "parentUid" : "432e028a78079d080f135191dbd290e3",
+        "uid" : "c9b52f65e9854a60",
+        "parentUid" : "2e83f876d1d2dc76498fa782a09b9e9f",
         "status" : "broken",
         "time" : {
-          "start" : 1629289451358,
-          "stop" : 1629289451366,
-          "duration" : 8
+          "start" : 1629290071164,
+          "stop" : 1629290071170,
+          "duration" : 6
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "addToWishlistTest()",
-        "uid" : "706c927b5df292e0",
-        "parentUid" : "432e028a78079d080f135191dbd290e3",
+        "uid" : "3184cf0dbf162b43",
+        "parentUid" : "2e83f876d1d2dc76498fa782a09b9e9f",
         "status" : "broken",
         "time" : {
-          "start" : 1629289451395,
-          "stop" : 1629289451406,
-          "duration" : 11
+          "start" : 1629290071194,
+          "stop" : 1629290071201,
+          "duration" : 7
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "432e028a78079d080f135191dbd290e3"
+      "uid" : "2e83f876d1d2dc76498fa782a09b9e9f"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

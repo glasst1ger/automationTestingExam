@@ -2,13 +2,23 @@
   "d8785669f714931d07e1779db520e974" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "df860bed8f01affa",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/df860bed8f01affa",
+      "status" : "broken",
+      "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.1.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zhgCR3}, goog:chromeOptions: {debuggerAddress: localhost:41091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fff0b6267597add1a664aaa92dfb26a",
+      "time" : {
+        "start" : 1629290071007,
+        "stop" : 1629290071035,
+        "duration" : 28
+      }
+    }, {
       "uid" : "5caa0056d86b7c12",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/5caa0056d86b7c12",
       "status" : "broken",
@@ -23,13 +33,23 @@
   "d661945d6a55e56b3b3b7967ab85d906" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c9b52f65e9854a60",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/c9b52f65e9854a60",
+      "status" : "broken",
+      "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.1.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zhgCR3}, goog:chromeOptions: {debuggerAddress: localhost:41091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fff0b6267597add1a664aaa92dfb26a",
+      "time" : {
+        "start" : 1629290071164,
+        "stop" : 1629290071170,
+        "duration" : 6
+      }
+    }, {
       "uid" : "bfc4a96bde5a2fd9",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/bfc4a96bde5a2fd9",
       "status" : "broken",
@@ -46,11 +66,20 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "70d6b678e51cdd11",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/70d6b678e51cdd11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629290031928,
+        "stop" : 1629290043259,
+        "duration" : 11331
+      }
+    }, {
       "uid" : "22e70b736e76054b",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/22e70b736e76054b",
       "status" : "broken",
@@ -65,13 +94,23 @@
   "305468f6011bc1dc91b293f9ac95df89" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "df74a1e88ef59ec",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/df74a1e88ef59ec",
+      "status" : "broken",
+      "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.1.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zhgCR3}, goog:chromeOptions: {debuggerAddress: localhost:41091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fff0b6267597add1a664aaa92dfb26a",
+      "time" : {
+        "start" : 1629290070953,
+        "stop" : 1629290070975,
+        "duration" : 22
+      }
+    }, {
       "uid" : "b6174690db0a2319",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/b6174690db0a2319",
       "status" : "broken",
@@ -86,13 +125,23 @@
   "442142d697ceab33a47664f9a335a6e7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "32cdda561f23fdd8",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/32cdda561f23fdd8",
+      "status" : "broken",
+      "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.1.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zhgCR3}, goog:chromeOptions: {debuggerAddress: localhost:41091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fff0b6267597add1a664aaa92dfb26a",
+      "time" : {
+        "start" : 1629290071044,
+        "stop" : 1629290071058,
+        "duration" : 14
+      }
+    }, {
       "uid" : "94f4be2a2f5491b0",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/94f4be2a2f5491b0",
       "status" : "broken",
@@ -109,11 +158,20 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e7362f76df4931a6",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/e7362f76df4931a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629289999081,
+        "stop" : 1629290031806,
+        "duration" : 32725
+      }
+    }, {
       "uid" : "5fe4dc8c42a0ea10",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/5fe4dc8c42a0ea10",
       "status" : "broken",
@@ -128,13 +186,23 @@
   "59676fefbd0cab60a77f449dd353ad5d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b7900e6c655d805d",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/b7900e6c655d805d",
+      "status" : "broken",
+      "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.1.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zhgCR3}, goog:chromeOptions: {debuggerAddress: localhost:41091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fff0b6267597add1a664aaa92dfb26a",
+      "time" : {
+        "start" : 1629290071061,
+        "stop" : 1629290071071,
+        "duration" : 10
+      }
+    }, {
       "uid" : "9010cb34be45cbbc",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/9010cb34be45cbbc",
       "status" : "broken",
@@ -149,13 +217,23 @@
   "60340ccd40d8541b8865e1d5716348d0" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3184cf0dbf162b43",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/3184cf0dbf162b43",
+      "status" : "broken",
+      "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.1.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zhgCR3}, goog:chromeOptions: {debuggerAddress: localhost:41091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fff0b6267597add1a664aaa92dfb26a",
+      "time" : {
+        "start" : 1629290071194,
+        "stop" : 1629290071201,
+        "duration" : 7
+      }
+    }, {
       "uid" : "706c927b5df292e0",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/706c927b5df292e0",
       "status" : "broken",
@@ -170,13 +248,23 @@
   "ae5dd7eaf608f408299284a7464b0fc3" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b62b3ad3eb4f13f5",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/b62b3ad3eb4f13f5",
+      "status" : "broken",
+      "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.1.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zhgCR3}, goog:chromeOptions: {debuggerAddress: localhost:41091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fff0b6267597add1a664aaa92dfb26a",
+      "time" : {
+        "start" : 1629290071087,
+        "stop" : 1629290071111,
+        "duration" : 24
+      }
+    }, {
       "uid" : "37eef9ba9eb56179",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/37eef9ba9eb56179",
       "status" : "broken",
@@ -193,11 +281,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "dc28729c46f9d6f6",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/dc28729c46f9d6f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629290043291,
+        "stop" : 1629290070845,
+        "duration" : 27554
+      }
+    }, {
       "uid" : "772a685e066aefba",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/772a685e066aefba",
       "status" : "passed",
