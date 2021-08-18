@@ -15,7 +15,6 @@ public class Utils {
             options.addArguments("--disable-notifications");
             options.addArguments("start-maximized");
             driver = new ChromeDriver(options);
-
         }
 
 

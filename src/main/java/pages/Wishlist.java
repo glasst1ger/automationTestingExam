@@ -58,6 +58,7 @@ public class Wishlist {
             driver.findElement(WISHLIST_HISTORY);
             return true;
         } catch (org.openqa.selenium.NoSuchElementException e) {
+            e.printStackTrace();
             return false;
         }
     }
