@@ -6,6 +6,13 @@
     "Test defects" : 6
   }
 }, {
+  "buildOrder" : 17,
+  "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/17/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Test defects" : 6
+  }
+}, {
   "buildOrder" : 16,
   "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16/",
   "reportName" : "Allure Report with history",

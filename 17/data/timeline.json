@@ -1,143 +1,143 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az82-699",
+    "name" : "fv-az83-229",
     "children" : [ {
-      "name" : "5172@fv-az82-699.ForkJoinPool-1-worker-3(16)",
+      "name" : "4998@fv-az83-229.ForkJoinPool-1-worker-3(16)",
       "children" : [ {
-        "name" : "Logout test after a successful registration test",
-        "uid" : "4ce3a28e69bde312",
-        "parentUid" : "01d0aed387713f02ac49d6864108ea31",
+        "name" : "Website up and running test",
+        "uid" : "f38d992b6a907f78",
+        "parentUid" : "08d474757acb9cde2580b7013240579c",
         "status" : "passed",
         "time" : {
-          "start" : 1629292271835,
-          "stop" : 1629292296168,
-          "duration" : 24333
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Automated registration test with randomized data",
-        "uid" : "41eeac710d64615f",
-        "parentUid" : "01d0aed387713f02ac49d6864108ea31",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629292249850,
-          "stop" : 1629292260295,
-          "duration" : 10445
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addressChangeTest()",
-        "uid" : "ddf1c13dca75679b",
-        "parentUid" : "01d0aed387713f02ac49d6864108ea31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629292296375,
-          "stop" : 1629292315777,
-          "duration" : 19402
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addToWishlistTest()",
-        "uid" : "8debe51937731aa1",
-        "parentUid" : "01d0aed387713f02ac49d6864108ea31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629292353353,
-          "stop" : 1629292359049,
-          "duration" : 5696
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Login test with a random account and password after a successful registration",
-        "uid" : "2aa9d782f888c946",
-        "parentUid" : "01d0aed387713f02ac49d6864108ea31",
-        "status" : "passed",
-        "time" : {
-          "start" : 1629292260399,
-          "stop" : 1629292271831,
-          "duration" : 11432
+          "start" : 1629293028891,
+          "stop" : 1629293031688,
+          "duration" : 2797
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "removeFromWishlistTest()",
-        "uid" : "c6f3015cbb419105",
-        "parentUid" : "01d0aed387713f02ac49d6864108ea31",
+        "uid" : "b862f376eaad0bf1",
+        "parentUid" : "08d474757acb9cde2580b7013240579c",
         "status" : "broken",
         "time" : {
-          "start" : 1629292343099,
-          "stop" : 1629292352932,
-          "duration" : 9833
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "listScrollTest()",
-        "uid" : "c8c811fb9c4e9bbb",
-        "parentUid" : "01d0aed387713f02ac49d6864108ea31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629292331971,
-          "stop" : 1629292342638,
-          "duration" : 10667
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "isTermsAndConditionsPageEmpty()",
-        "uid" : "8cf4d0ee69265a1c",
-        "parentUid" : "01d0aed387713f02ac49d6864108ea31",
-        "status" : "broken",
-        "time" : {
-          "start" : 1629292327365,
-          "stop" : 1629292331774,
-          "duration" : 4409
+          "start" : 1629293049065,
+          "stop" : 1629293067955,
+          "duration" : 18890
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "getTermsAndConditions()",
-        "uid" : "d756389e065e4aa8",
-        "parentUid" : "01d0aed387713f02ac49d6864108ea31",
+        "uid" : "7072ea80af6b3680",
+        "parentUid" : "08d474757acb9cde2580b7013240579c",
         "status" : "broken",
         "time" : {
-          "start" : 1629292321828,
-          "stop" : 1629292326937,
-          "duration" : 5109
+          "start" : 1629293032089,
+          "stop" : 1629293036363,
+          "duration" : 4274
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Website up and running test",
-        "uid" : "973b697f2d5d07e2",
-        "parentUid" : "01d0aed387713f02ac49d6864108ea31",
+        "name" : "listScrollTest()",
+        "uid" : "468ad4b7a3d556fd",
+        "parentUid" : "08d474757acb9cde2580b7013240579c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629293040761,
+          "stop" : 1629293048557,
+          "duration" : 7796
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "isTermsAndConditionsPageEmpty()",
+        "uid" : "f007b910292ff163",
+        "parentUid" : "08d474757acb9cde2580b7013240579c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629293036761,
+          "stop" : 1629293040529,
+          "duration" : 3768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addressChangeTest()",
+        "uid" : "8eccb996c2f339a9",
+        "parentUid" : "08d474757acb9cde2580b7013240579c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629293022995,
+          "stop" : 1629293028869,
+          "duration" : 5874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Automated registration test with randomized data",
+        "uid" : "3d9e5b40cf666168",
+        "parentUid" : "08d474757acb9cde2580b7013240579c",
         "status" : "passed",
         "time" : {
-          "start" : 1629292315786,
-          "stop" : 1629292321484,
-          "duration" : 5698
+          "start" : 1629292968591,
+          "stop" : 1629292987782,
+          "duration" : 19191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout test after a successful registration test",
+        "uid" : "c348980067325b00",
+        "parentUid" : "08d474757acb9cde2580b7013240579c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629293002436,
+          "stop" : 1629293022712,
+          "duration" : 20276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "addToWishlistTest()",
+        "uid" : "4d006da900b5a7eb",
+        "parentUid" : "08d474757acb9cde2580b7013240579c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629293068492,
+          "stop" : 1629293077203,
+          "duration" : 8711
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login test with a random account and password after a successful registration",
+        "uid" : "36b35d9f6f15de8d",
+        "parentUid" : "08d474757acb9cde2580b7013240579c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629292987905,
+          "stop" : 1629293002429,
+          "duration" : 14524
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "01d0aed387713f02ac49d6864108ea31"
+      "uid" : "08d474757acb9cde2580b7013240579c"
     } ],
-    "uid" : "64bf0220b054506362904f3e6cee53e5"
+    "uid" : "17a7781469252fc92d2795c17257f7b6"
   } ],
   "name" : "timeline"
 }

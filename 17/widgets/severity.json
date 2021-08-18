@@ -1,100 +1,100 @@
 [ {
-  "uid" : "41eeac710d64615f",
-  "name" : "Automated registration test with randomized data",
-  "time" : {
-    "start" : 1629292249850,
-    "stop" : 1629292260295,
-    "duration" : 10445
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c6f3015cbb419105",
-  "name" : "removeFromWishlistTest()",
-  "time" : {
-    "start" : 1629292343099,
-    "stop" : 1629292352932,
-    "duration" : 9833
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2aa9d782f888c946",
-  "name" : "Login test with a random account and password after a successful registration",
-  "time" : {
-    "start" : 1629292260399,
-    "stop" : 1629292271831,
-    "duration" : 11432
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8debe51937731aa1",
-  "name" : "addToWishlistTest()",
-  "time" : {
-    "start" : 1629292353353,
-    "stop" : 1629292359049,
-    "duration" : 5696
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ddf1c13dca75679b",
-  "name" : "addressChangeTest()",
-  "time" : {
-    "start" : 1629292296375,
-    "stop" : 1629292315777,
-    "duration" : 19402
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c8c811fb9c4e9bbb",
-  "name" : "listScrollTest()",
-  "time" : {
-    "start" : 1629292331971,
-    "stop" : 1629292342638,
-    "duration" : 10667
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "973b697f2d5d07e2",
-  "name" : "Website up and running test",
-  "time" : {
-    "start" : 1629292315786,
-    "stop" : 1629292321484,
-    "duration" : 5698
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ce3a28e69bde312",
+  "uid" : "c348980067325b00",
   "name" : "Logout test after a successful registration test",
   "time" : {
-    "start" : 1629292271835,
-    "stop" : 1629292296168,
-    "duration" : 24333
+    "start" : 1629293002436,
+    "stop" : 1629293022712,
+    "duration" : 20276
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8cf4d0ee69265a1c",
-  "name" : "isTermsAndConditionsPageEmpty()",
+  "uid" : "36b35d9f6f15de8d",
+  "name" : "Login test with a random account and password after a successful registration",
   "time" : {
-    "start" : 1629292327365,
-    "stop" : 1629292331774,
-    "duration" : 4409
+    "start" : 1629292987905,
+    "stop" : 1629293002429,
+    "duration" : 14524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d9e5b40cf666168",
+  "name" : "Automated registration test with randomized data",
+  "time" : {
+    "start" : 1629292968591,
+    "stop" : 1629292987782,
+    "duration" : 19191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7072ea80af6b3680",
+  "name" : "getTermsAndConditions()",
+  "time" : {
+    "start" : 1629293032089,
+    "stop" : 1629293036363,
+    "duration" : 4274
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "d756389e065e4aa8",
-  "name" : "getTermsAndConditions()",
+  "uid" : "8eccb996c2f339a9",
+  "name" : "addressChangeTest()",
   "time" : {
-    "start" : 1629292321828,
-    "stop" : 1629292326937,
-    "duration" : 5109
+    "start" : 1629293022995,
+    "stop" : 1629293028869,
+    "duration" : 5874
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b862f376eaad0bf1",
+  "name" : "removeFromWishlistTest()",
+  "time" : {
+    "start" : 1629293049065,
+    "stop" : 1629293067955,
+    "duration" : 18890
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "468ad4b7a3d556fd",
+  "name" : "listScrollTest()",
+  "time" : {
+    "start" : 1629293040761,
+    "stop" : 1629293048557,
+    "duration" : 7796
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f38d992b6a907f78",
+  "name" : "Website up and running test",
+  "time" : {
+    "start" : 1629293028891,
+    "stop" : 1629293031688,
+    "duration" : 2797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f007b910292ff163",
+  "name" : "isTermsAndConditionsPageEmpty()",
+  "time" : {
+    "start" : 1629293036761,
+    "stop" : 1629293040529,
+    "duration" : 3768
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4d006da900b5a7eb",
+  "name" : "addToWishlistTest()",
+  "time" : {
+    "start" : 1629293068492,
+    "stop" : 1629293077203,
+    "duration" : 8711
   },
   "status" : "broken",
   "severity" : "normal"

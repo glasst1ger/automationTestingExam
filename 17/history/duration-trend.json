@@ -3,6 +3,13 @@
   "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/17/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 108612
+  }
+}, {
+  "buildOrder" : 17,
+  "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/17/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 109199
   }
 }, {
