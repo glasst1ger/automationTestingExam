@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://glasst1ger.github.io/automationTestingExam",
+  "buildOrder" : 22,
+  "buildName" : "GitHub Actions Run #1143961732",
+  "buildUrl" : "https://github.com/glasst1ger/automationTestingExam/actions/runs/1143961732",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22/"
+} ]
