@@ -1,0 +1,135 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Website up and running test",
+    "uid" : "34f48244c8bf8d0c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629300671009,
+      "stop" : 1629300680510,
+      "duration" : 9501
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Automated registration test with randomized data",
+    "uid" : "9869eca2e464de28",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629300671179,
+      "stop" : 1629300713535,
+      "duration" : 42356
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "addressChangeTest()",
+    "uid" : "e0102310757677f8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629300673745,
+      "stop" : 1629300752612,
+      "duration" : 78867
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "removeFromWishlistTest()",
+    "uid" : "c7f80990cc56293e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629300681526,
+      "stop" : 1629300681878,
+      "duration" : 352
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "addToWishlistTest()",
+    "uid" : "68bb8823c7970496",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629300682275,
+      "stop" : 1629300682592,
+      "duration" : 317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login test with a random account and password after a successful registration",
+    "uid" : "f2ed89b41c6f2873",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629300713629,
+      "stop" : 1629300744425,
+      "duration" : 30796
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout test after a successful registration test",
+    "uid" : "777602aa10279df9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629300744428,
+      "stop" : 1629300775594,
+      "duration" : 31166
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "listScrollTest()",
+    "uid" : "72e84d4bb01cb177",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629300752865,
+      "stop" : 1629300798100,
+      "duration" : 45235
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "getTermsAndConditions()",
+    "uid" : "d8fb0c588b68446d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629300775937,
+      "stop" : 1629300776232,
+      "duration" : 295
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "isTermsAndConditionsPageEmpty()",
+    "uid" : "729ae437d0c73386",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629300776535,
+      "stop" : 1629300784740,
+      "duration" : 8205
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

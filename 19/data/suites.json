@@ -1,0 +1,159 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "HomePageTest",
+    "children" : [ {
+      "name" : "Website up and running test",
+      "uid" : "34f48244c8bf8d0c",
+      "parentUid" : "9cbeee9642f9a99daebe33b128ffe5d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629300671009,
+        "stop" : 1629300680510,
+        "duration" : 9501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9cbeee9642f9a99daebe33b128ffe5d4"
+  }, {
+    "name" : "LoginPageTest",
+    "children" : [ {
+      "name" : "Automated registration test with randomized data",
+      "uid" : "9869eca2e464de28",
+      "parentUid" : "4c02d1c299d33785fe93a09989ce5979",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629300671179,
+        "stop" : 1629300713535,
+        "duration" : 42356
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Login test with a random account and password after a successful registration",
+      "uid" : "f2ed89b41c6f2873",
+      "parentUid" : "4c02d1c299d33785fe93a09989ce5979",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629300713629,
+        "stop" : 1629300744425,
+        "duration" : 30796
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Logout test after a successful registration test",
+      "uid" : "777602aa10279df9",
+      "parentUid" : "4c02d1c299d33785fe93a09989ce5979",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629300744428,
+        "stop" : 1629300775594,
+        "duration" : 31166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4c02d1c299d33785fe93a09989ce5979"
+  }, {
+    "name" : "AccountsTest",
+    "children" : [ {
+      "name" : "addressChangeTest()",
+      "uid" : "e0102310757677f8",
+      "parentUid" : "29aead5adedc6797e783f577c972f70b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629300673745,
+        "stop" : 1629300752612,
+        "duration" : 78867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "29aead5adedc6797e783f577c972f70b"
+  }, {
+    "name" : "WishlistTest",
+    "children" : [ {
+      "name" : "removeFromWishlistTest()",
+      "uid" : "c7f80990cc56293e",
+      "parentUid" : "d98ae7b5a8a57feff1c9136a93f222f2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629300681526,
+        "stop" : 1629300681878,
+        "duration" : 352
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addToWishlistTest()",
+      "uid" : "68bb8823c7970496",
+      "parentUid" : "d98ae7b5a8a57feff1c9136a93f222f2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629300682275,
+        "stop" : 1629300682592,
+        "duration" : 317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d98ae7b5a8a57feff1c9136a93f222f2"
+  }, {
+    "name" : "ListScrollTest",
+    "children" : [ {
+      "name" : "listScrollTest()",
+      "uid" : "72e84d4bb01cb177",
+      "parentUid" : "89aed3fb08533d8969903582cc172c9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629300752865,
+        "stop" : 1629300798100,
+        "duration" : 45235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "89aed3fb08533d8969903582cc172c9a"
+  }, {
+    "name" : "TermsAndConditionsTest",
+    "children" : [ {
+      "name" : "getTermsAndConditions()",
+      "uid" : "d8fb0c588b68446d",
+      "parentUid" : "520039d34bc4b5dd0e0d8949c70586fa",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629300775937,
+        "stop" : 1629300776232,
+        "duration" : 295
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "isTermsAndConditionsPageEmpty()",
+      "uid" : "729ae437d0c73386",
+      "parentUid" : "520039d34bc4b5dd0e0d8949c70586fa",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629300776535,
+        "stop" : 1629300784740,
+        "duration" : 8205
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "520039d34bc4b5dd0e0d8949c70586fa"
+  } ],
+  "name" : "suites"
+}
