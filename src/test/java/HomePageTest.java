@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class HomePageTest {
 
-    HomePage homePage;
+
     WebDriver driver;
 
     @BeforeEach
@@ -20,10 +20,11 @@ public class HomePageTest {
 
 
     @Test
-    @DisplayName("")
+    @DisplayName("Website up and running test")
     public void correctHomePageUrlTest() {
-        driver.get(homePage.URL);
-        String homeUrl = homePage.URL;
+        HomePage homePage = new HomePage(driver);
+        driver.get(homePage.getURL());
+        String homeUrl = homePage.getURL();
         assertEquals(homeUrl, driver.getCurrentUrl());
     }
 

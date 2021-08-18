@@ -24,7 +24,7 @@ public class LoginPageTest {
 
     @Test
     @Order(1)
-    @DisplayName("")
+    @DisplayName("Automated registration test with randomized data")
     public void registrationTest() throws IOException {
         homePage.navigateToHomePage();
         homePage.loginPage(driver);
@@ -37,17 +37,17 @@ public class LoginPageTest {
 
     @Test
     @Order(2)
-    @DisplayName("")
+    @DisplayName("Logout test after a successful registration test")
     public void logoutTest() {
         loginPage.logout();
-        String loginText = driver.findElement(homePage.loginPageSelector).getText();
+        String loginText = driver.findElement(homePage.getLoginPageSelector()).getText();
 
-        assertEquals("Sign in", loginText); //sign-in szöveget átvinni loginpage-be
+        assertEquals("Sign in", loginText);
     }
 
     @Test
     @Order(3)
-    @DisplayName("")
+    @DisplayName("Login test with a random account and password after a successful registration and logout test")
     public void loginTest() {
         loginPage.login();
 

@@ -14,6 +14,9 @@ public class Utils {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             options.addArguments("start-maximized");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--headless");
             driver = new ChromeDriver(options);
         }
 
@@ -26,6 +29,6 @@ public class Utils {
     }
 
     public static void tearDown() {
-        driver.quit();
+        driver.close();
     }
 }

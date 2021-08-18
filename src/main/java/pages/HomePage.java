@@ -6,15 +6,23 @@ import org.openqa.selenium.WebDriver;
 public class HomePage {
 
     WebDriver driver;
-    public By loginPageSelector = By.cssSelector(".login");
-    public final String URL = "http://automationpractice.com/index.php";
+    private final By loginPageSelector = By.cssSelector(".login");
+    private final String URL = "http://automationpractice.com/index.php";
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }
 
+    public By getLoginPageSelector() {
+        return loginPageSelector;
+    }
+
     public void navigateToHomePage() {
         driver.get(URL);
+    }
+
+    public String getURL() {
+        return URL;
     }
 
     public LoginPage loginPage(WebDriver driver) {
