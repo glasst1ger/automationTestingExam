@@ -1,0 +1,101 @@
+[ {
+  "uid" : "9010cb34be45cbbc",
+  "name" : "isTermsAndConditionsPageEmpty()",
+  "time" : {
+    "start" : 1629289451244,
+    "stop" : 1629289451253,
+    "duration" : 9
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5fe4dc8c42a0ea10",
+  "name" : "Automated registration test with randomized data",
+  "time" : {
+    "start" : 1629289375654,
+    "stop" : 1629289402612,
+    "duration" : 26958
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5caa0056d86b7c12",
+  "name" : "Website up and running test",
+  "time" : {
+    "start" : 1629289451172,
+    "stop" : 1629289451208,
+    "duration" : 36
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "22e70b736e76054b",
+  "name" : "Logout test after a successful registration test",
+  "time" : {
+    "start" : 1629289402737,
+    "stop" : 1629289422798,
+    "duration" : 20061
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "94f4be2a2f5491b0",
+  "name" : "getTermsAndConditions()",
+  "time" : {
+    "start" : 1629289451227,
+    "stop" : 1629289451241,
+    "duration" : 14
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "706c927b5df292e0",
+  "name" : "addToWishlistTest()",
+  "time" : {
+    "start" : 1629289451395,
+    "stop" : 1629289451406,
+    "duration" : 11
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "37eef9ba9eb56179",
+  "name" : "listScrollTest()",
+  "time" : {
+    "start" : 1629289451263,
+    "stop" : 1629289451280,
+    "duration" : 17
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b6174690db0a2319",
+  "name" : "addressChangeTest()",
+  "time" : {
+    "start" : 1629289451150,
+    "stop" : 1629289451160,
+    "duration" : 10
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bfc4a96bde5a2fd9",
+  "name" : "removeFromWishlistTest()",
+  "time" : {
+    "start" : 1629289451358,
+    "stop" : 1629289451366,
+    "duration" : 8
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "772a685e066aefba",
+  "name" : "Login test with a random account and password after a successful registration and logout test",
+  "time" : {
+    "start" : 1629289422832,
+    "stop" : 1629289451046,
+    "duration" : 28214
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
