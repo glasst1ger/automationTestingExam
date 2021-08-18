@@ -1,0 +1,101 @@
+[ {
+  "uid" : "561b2e0793d19146",
+  "name" : "Address change test",
+  "time" : {
+    "start" : 1629310600130,
+    "stop" : 1629310621342,
+    "duration" : 21212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "387c7e4b44ff7d86",
+  "name" : "Find the terms and conditions page test",
+  "time" : {
+    "start" : 1629310623880,
+    "stop" : 1629310628566,
+    "duration" : 4686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "949a280e0c552c62",
+  "name" : "Website is up and running test",
+  "time" : {
+    "start" : 1629310621358,
+    "stop" : 1629310623871,
+    "duration" : 2513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "126ca87aefe11196",
+  "name" : "Adding, then removing a product from a wishlist test",
+  "time" : {
+    "start" : 1629310649440,
+    "stop" : 1629310710529,
+    "duration" : 61089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4bb60baa704ee73",
+  "name" : "Logout test after a successful registration test",
+  "time" : {
+    "start" : 1629310587542,
+    "stop" : 1629310600120,
+    "duration" : 12578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0b081dad22b7cb0",
+  "name" : "Automated registration test with randomized data",
+  "time" : {
+    "start" : 1629310561761,
+    "stop" : 1629310576466,
+    "duration" : 14705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0de9de49fa851b5",
+  "name" : "Scrolling through multiple pages test",
+  "time" : {
+    "start" : 1629310633656,
+    "stop" : 1629310649431,
+    "duration" : 15775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73a051e131be3e78",
+  "name" : "Login test with a random account and password after a successful registration",
+  "time" : {
+    "start" : 1629310576548,
+    "stop" : 1629310587538,
+    "duration" : 10990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca724f48c7c7b71b",
+  "name" : "Validating correct Terms and Conditions text test",
+  "time" : {
+    "start" : 1629310628568,
+    "stop" : 1629310633645,
+    "duration" : 5077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ac2467adc76c8d2",
+  "name" : "Adding a product to wishlist test",
+  "time" : {
+    "start" : 1629310710533,
+    "stop" : 1629310739819,
+    "duration" : 29286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
