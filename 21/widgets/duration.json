@@ -1,100 +1,100 @@
 [ {
-  "uid" : "bd0a316ff4abba5f",
-  "name" : "Find the terms and conditions page test",
+  "uid" : "ebb3938b0d874f28",
+  "name" : "Address change test",
   "time" : {
-    "start" : 1629304693305,
-    "stop" : 1629304693448,
-    "duration" : 143
+    "start" : 1629305430246,
+    "stop" : 1629305430461,
+    "duration" : 215
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "4c3420d8a3d06766",
-  "name" : "Validating correct Terms and Conditions text test",
-  "time" : {
-    "start" : 1629304693456,
-    "stop" : 1629304693601,
-    "duration" : 145
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "cdf1898b92a010e9",
-  "name" : "Login test with a random account and password after a successful registration",
-  "time" : {
-    "start" : 1629304692509,
-    "stop" : 1629304692711,
-    "duration" : 202
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "69c7f110d014e4c9",
+  "uid" : "7be7e1f1dce9c14",
   "name" : "Automated registration test with randomized data",
   "time" : {
-    "start" : 1629304691760,
-    "stop" : 1629304692429,
-    "duration" : 669
+    "start" : 1629305429001,
+    "stop" : 1629305429783,
+    "duration" : 782
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "837f64477b41f463",
-  "name" : "Adding a product to wishlist test",
+  "uid" : "e81cfd35618ece62",
+  "name" : "Find the terms and conditions page test",
   "time" : {
-    "start" : 1629304693907,
-    "stop" : 1629304694054,
-    "duration" : 147
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "8358d415973a44bb",
-  "name" : "Website is up and running test",
-  "time" : {
-    "start" : 1629304693130,
-    "stop" : 1629304693290,
+    "start" : 1629305430635,
+    "stop" : 1629305430795,
     "duration" : 160
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "8465396aab747697",
-  "name" : "Adding, then removing a product from a wishlist test",
+  "uid" : "fd29941835a3c3c7",
+  "name" : "Login test with a random account and password after a successful registration",
   "time" : {
-    "start" : 1629304693760,
-    "stop" : 1629304693902,
-    "duration" : 142
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "b3c151565a71bd84",
-  "name" : "Address change test",
-  "time" : {
-    "start" : 1629304692927,
-    "stop" : 1629304693105,
+    "start" : 1629305429849,
+    "stop" : 1629305430027,
     "duration" : 178
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "d35756132fadc373",
-  "name" : "Scrolling through multiple pages test",
+  "uid" : "ce8804ba972dff19",
+  "name" : "Validating correct Terms and Conditions text test",
   "time" : {
-    "start" : 1629304693605,
-    "stop" : 1629304693752,
-    "duration" : 147
+    "start" : 1629305430799,
+    "stop" : 1629305430941,
+    "duration" : 142
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "75a4ba0102b74fab",
+  "uid" : "9240c82c6db77e3f",
+  "name" : "Adding a product to wishlist test",
+  "time" : {
+    "start" : 1629305431284,
+    "stop" : 1629305431430,
+    "duration" : 146
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fceef2f23b897200",
+  "name" : "Adding, then removing a product from a wishlist test",
+  "time" : {
+    "start" : 1629305431127,
+    "stop" : 1629305431276,
+    "duration" : 149
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c676f151f0e07d81",
   "name" : "Logout test after a successful registration test",
   "time" : {
-    "start" : 1629304692718,
-    "stop" : 1629304692920,
-    "duration" : 202
+    "start" : 1629305430044,
+    "stop" : 1629305430237,
+    "duration" : 193
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b64e07c157cf3db7",
+  "name" : "Scrolling through multiple pages test",
+  "time" : {
+    "start" : 1629305430951,
+    "stop" : 1629305431111,
+    "duration" : 160
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c85c5a5b7a983ab2",
+  "name" : "Website is up and running test",
+  "time" : {
+    "start" : 1629305430474,
+    "stop" : 1629305430627,
+    "duration" : 153
   },
   "status" : "broken",
   "severity" : "normal"
