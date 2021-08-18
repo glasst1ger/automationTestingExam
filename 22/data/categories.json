@@ -3,22 +3,52 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"block_top_menu\"]/ul/li[1]/a\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.0.85', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.YcqO6S}, goog:chromeOptions: {debuggerAddress: localhost:40381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5f647237b25677c6b98e20c89ae82992\n*** Element info: {Using=xpath, value=//*[@id=\"block_top_menu\"]/ul/li[1]/a}",
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#email_create\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.149', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.S4OKxt}, goog:chromeOptions: {debuggerAddress: localhost:41665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 88762e953af09b8695d35bc099d9a4b8\n*** Element info: {Using=css selector, value=#email_create}",
       "children" : [ {
-        "name" : "Adding, then removing a product from a wishlist test",
-        "uid" : "9079fa3656274bdf",
-        "parentUid" : "db68d038771a33f2d7a55e244df39174",
+        "name" : "Automated registration test with randomized data",
+        "uid" : "1e3693c350bfd356",
+        "parentUid" : "aa323c129eb7914a49c74a02a1177949",
         "status" : "broken",
         "time" : {
-          "start" : 1629306184080,
-          "stop" : 1629306222726,
-          "duration" : 38646
+          "start" : 1629307317151,
+          "stop" : 1629307351963,
+          "duration" : 34812
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "db68d038771a33f2d7a55e244df39174"
+      "uid" : "aa323c129eb7914a49c74a02a1177949"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.id: email (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Address change test",
+        "uid" : "451d58dfe4c6d5a4",
+        "parentUid" : "eb88170e9fcc7ebfa8bed1985dba11d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629307317153,
+          "stop" : 1629307352486,
+          "duration" : 35333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout test after a successful registration test",
+        "uid" : "bed1c707af1e2d1d",
+        "parentUid" : "eb88170e9fcc7ebfa8bed1985dba11d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629307387068,
+          "stop" : 1629307420500,
+          "duration" : 33432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb88170e9fcc7ebfa8bed1985dba11d8"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

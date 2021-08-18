@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 7,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "a28f51658123fa52",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/a28f51658123fa52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629307352599,
+        "stop" : 1629307362790,
+        "duration" : 10191
+      }
+    }, {
       "uid" : "94d630578f3523a3",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/94d630578f3523a3",
       "status" : "passed",
@@ -130,11 +139,20 @@
       "failed" : 0,
       "broken" : 12,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "6416e64d9114514",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/6416e64d9114514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629307433810,
+        "stop" : 1629307558540,
+        "duration" : 124730
+      }
+    }, {
       "uid" : "9079fa3656274bdf",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/9079fa3656274bdf",
       "status" : "broken",
@@ -259,13 +277,23 @@
   "d4f1cd038c5591d6a8b10d63f88ea8bb" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "bed1c707af1e2d1d",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/bed1c707af1e2d1d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: email (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1629307387068,
+        "stop" : 1629307420500,
+        "duration" : 33432
+      }
+    }, {
       "uid" : "e18daaa42360691e",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/e18daaa42360691e",
       "status" : "passed",
@@ -386,13 +414,23 @@
   "305468f6011bc1dc91b293f9ac95df89" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 11,
+      "broken" : 12,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "451d58dfe4c6d5a4",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/451d58dfe4c6d5a4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.id: email (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1629307317153,
+        "stop" : 1629307352486,
+        "duration" : 35333
+      }
+    }, {
       "uid" : "831d8245fe87f759",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/831d8245fe87f759",
       "status" : "passed",
@@ -518,11 +556,20 @@
       "failed" : 0,
       "broken" : 10,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "9e5dc2c860bd0520",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/9e5dc2c860bd0520",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629307362804,
+        "stop" : 1629307378633,
+        "duration" : 15829
+      }
+    }, {
       "uid" : "eaa0b45607ad74e",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/eaa0b45607ad74e",
       "status" : "passed",
@@ -645,13 +692,23 @@
   "d9335d16cfe5afc2bd14f0a4e077c252" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 8,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "1e3693c350bfd356",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/1e3693c350bfd356",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#email_create\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.149', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.S4OKxt}, goog:chromeOptions: {debuggerAddress: localhost:41665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 88762e953af09b8695d35bc099d9a4b8\n*** Element info: {Using=css selector, value=#email_create}",
+      "time" : {
+        "start" : 1629307317151,
+        "stop" : 1629307351963,
+        "duration" : 34812
+      }
+    }, {
       "uid" : "20dd73ed187d529f",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/20dd73ed187d529f",
       "status" : "passed",
@@ -774,11 +831,20 @@
       "failed" : 0,
       "broken" : 10,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "c1fe7ca810d207c7",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/c1fe7ca810d207c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629307378636,
+        "stop" : 1629307394888,
+        "duration" : 16252
+      }
+    }, {
       "uid" : "669d7ec72ec44980",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/669d7ec72ec44980",
       "status" : "passed",
@@ -903,11 +969,20 @@
       "failed" : 0,
       "broken" : 10,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "7e97a3a4f5074eb2",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/7e97a3a4f5074eb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629307558546,
+        "stop" : 1629307619983,
+        "duration" : 61437
+      }
+    }, {
       "uid" : "87ca31dcad337f11",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/87ca31dcad337f11",
       "status" : "passed",
@@ -1032,11 +1107,20 @@
       "failed" : 0,
       "broken" : 10,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "9f5b3d47866efc13",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/9f5b3d47866efc13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629307394898,
+        "stop" : 1629307433792,
+        "duration" : 38894
+      }
+    }, {
       "uid" : "aecd3bc9a526f92e",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/aecd3bc9a526f92e",
       "status" : "passed",
@@ -1161,11 +1245,20 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "d5acbf475a71d23c",
+      "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/d5acbf475a71d23c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629307352081,
+        "stop" : 1629307387061,
+        "duration" : 34980
+      }
+    }, {
       "uid" : "e9d282d1a233fd9e",
       "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/22//#testresult/e9d282d1a233fd9e",
       "status" : "passed",

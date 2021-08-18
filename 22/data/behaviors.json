@@ -2,52 +2,39 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Automated registration test with randomized data",
-    "uid" : "20dd73ed187d529f",
+    "uid" : "1e3693c350bfd356",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "broken",
     "time" : {
-      "start" : 1629305999512,
-      "stop" : 1629306024785,
-      "duration" : 25273
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Login test with a random account and password after a successful registration",
-    "uid" : "e9d282d1a233fd9e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1629306024870,
-      "stop" : 1629306039152,
-      "duration" : 14282
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Logout test after a successful registration test",
-    "uid" : "e18daaa42360691e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1629306039157,
-      "stop" : 1629306063945,
-      "duration" : 24788
+      "start" : 1629307317151,
+      "stop" : 1629307351963,
+      "duration" : 34812
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Address change test",
-    "uid" : "831d8245fe87f759",
+    "uid" : "451d58dfe4c6d5a4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629307317153,
+      "stop" : 1629307352486,
+      "duration" : 35333
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login test with a random account and password after a successful registration",
+    "uid" : "d5acbf475a71d23c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1629306063956,
-      "stop" : 1629306106328,
-      "duration" : 42372
+      "start" : 1629307352081,
+      "stop" : 1629307387061,
+      "duration" : 34980
     },
     "flaky" : false,
     "newFailed" : false,
@@ -56,13 +43,13 @@
     "name" : "A user reported that sometimes the website is not available",
     "children" : [ {
       "name" : "Website is up and running test",
-      "uid" : "94d630578f3523a3",
+      "uid" : "a28f51658123fa52",
       "parentUid" : "9915677f6e731eb37fefe9d2b683bbeb",
       "status" : "passed",
       "time" : {
-        "start" : 1629306106342,
-        "stop" : 1629306114649,
-        "duration" : 8307
+        "start" : 1629307352599,
+        "stop" : 1629307362790,
+        "duration" : 10191
       },
       "flaky" : false,
       "newFailed" : false,
@@ -71,65 +58,78 @@
     "uid" : "9915677f6e731eb37fefe9d2b683bbeb"
   }, {
     "name" : "Find the terms and conditions page test",
-    "uid" : "eaa0b45607ad74e",
+    "uid" : "9e5dc2c860bd0520",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1629306114659,
-      "stop" : 1629306130892,
-      "duration" : 16233
+      "start" : 1629307362804,
+      "stop" : 1629307378633,
+      "duration" : 15829
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Validating correct Terms and Conditions text test",
-    "uid" : "669d7ec72ec44980",
+    "uid" : "c1fe7ca810d207c7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1629306130896,
-      "stop" : 1629306145411,
-      "duration" : 14515
+      "start" : 1629307378636,
+      "stop" : 1629307394888,
+      "duration" : 16252
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Logout test after a successful registration test",
+    "uid" : "bed1c707af1e2d1d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1629307387068,
+      "stop" : 1629307420500,
+      "duration" : 33432
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Scrolling through multiple pages test",
-    "uid" : "aecd3bc9a526f92e",
+    "uid" : "9f5b3d47866efc13",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1629306145414,
-      "stop" : 1629306184071,
-      "duration" : 38657
+      "start" : 1629307394898,
+      "stop" : 1629307433792,
+      "duration" : 38894
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Adding, then removing a product from a wishlist test",
-    "uid" : "9079fa3656274bdf",
+    "uid" : "6416e64d9114514",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1629306184080,
-      "stop" : 1629306222726,
-      "duration" : 38646
+      "start" : 1629307433810,
+      "stop" : 1629307558540,
+      "duration" : 124730
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Adding a product to wishlist test",
-    "uid" : "87ca31dcad337f11",
+    "uid" : "7e97a3a4f5074eb2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1629306222742,
-      "stop" : 1629306264202,
-      "duration" : 41460
+      "start" : 1629307558546,
+      "stop" : 1629307619983,
+      "duration" : 61437
     },
     "flaky" : false,
     "newFailed" : false,
