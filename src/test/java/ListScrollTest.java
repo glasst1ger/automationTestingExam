@@ -1,17 +1,19 @@
-import org.junit.jupiter.api.AfterAll;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import pages.ListScroll;
 
-import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ListScrollTest extends Utils {
+
     WebDriver driver;
-    ListScroll listScroll = new ListScroll(getDriver());
+
 
     @BeforeEach
     public void setUp() {
@@ -20,11 +22,13 @@ public class ListScrollTest extends Utils {
     }
 
     @Test
+    @DisplayName("Scrolling through multiple pages test")
+    @Description("The objective of this test is to scroll through multiple pages and count how many products are there in the given categories.")
+    @Severity(SeverityLevel.NORMAL)
     public void listScrollTest() {
+        ListScroll listScroll = new ListScroll(driver);
         listScroll.scrollThroughMultiplePages();
         assertEquals(listScroll.testNumberOfProducts, listScroll.numberOfProducts);
-
-
     }
 
     @AfterEach
