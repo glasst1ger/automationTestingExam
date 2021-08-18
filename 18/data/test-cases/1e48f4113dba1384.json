@@ -1,0 +1,108 @@
+{
+  "uid" : "1e48f4113dba1384",
+  "name" : "Adding a product to wishlist test",
+  "fullName" : "WishlistTest.addToWishlistTest",
+  "historyId" : "60340ccd40d8541b8865e1d5716348d0",
+  "time" : {
+    "start" : 1629298860794,
+    "stop" : 1629298912063,
+    "duration" : 51269
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-699"
+  }, {
+    "name" : "thread",
+    "value" : "4644@fv-az82-699.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "WishlistTest"
+  }, {
+    "name" : "testClass",
+    "value" : "WishlistTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addToWishlistTest"
+  }, {
+    "name" : "suite",
+    "value" : "WishlistTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "4d006da900b5a7eb",
+        "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/17//#testresult/4d006da900b5a7eb",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#email\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.0.202', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.0uaeHZ}, goog:chromeOptions: {debuggerAddress: localhost:34047}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d8441ad5bf843424c691e41ac8a1253e\n*** Element info: {Using=id, value=email}",
+        "time" : {
+          "start" : 1629293068492,
+          "stop" : 1629293077203,
+          "duration" : 8711
+        }
+      }, {
+        "uid" : "8debe51937731aa1",
+        "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/17//#testresult/8debe51937731aa1",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#email\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.1.8', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.TuEpCD}, goog:chromeOptions: {debuggerAddress: localhost:38065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6a3193caa2bc59f0597a2473aa264190\n*** Element info: {Using=id, value=email}",
+        "time" : {
+          "start" : 1629292353353,
+          "stop" : 1629292359049,
+          "duration" : 5696
+        }
+      }, {
+        "uid" : "3184cf0dbf162b43",
+        "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/3184cf0dbf162b43",
+        "status" : "broken",
+        "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.1.112', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zhgCR3}, goog:chromeOptions: {debuggerAddress: localhost:41091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fff0b6267597add1a664aaa92dfb26a",
+        "time" : {
+          "start" : 1629290071194,
+          "stop" : 1629290071201,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "706c927b5df292e0",
+        "reportUrl" : "https://glasst1ger.github.io/automationTestingExam/16//#testresult/706c927b5df292e0",
+        "status" : "broken",
+        "statusDetails" : "invalid session id\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-270', ip: '10.1.1.80', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.uD7Rbl}, goog:chromeOptions: {debuggerAddress: localhost:43591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4a9f4b252d9d117869cf8badcab26ab5",
+        "time" : {
+          "start" : 1629289451395,
+          "stop" : 1629289451406,
+          "duration" : 11
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1e48f4113dba1384.json",
+  "parameterValues" : [ ]
+}

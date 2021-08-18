@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.1.74', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.TYwAXY}, goog:chromeOptions: {debuggerAddress: localhost:35555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 073b08a462f716761983f96547772ad2\n*** Element info: {Using=css selector, value=.login}",
+      "children" : [ {
+        "name" : "Automated registration test with randomized data",
+        "uid" : "548616c62a646bd7",
+        "parentUid" : "a72cbb8d0a99501989edcfd0cb743716",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629298681140,
+          "stop" : 1629298702543,
+          "duration" : 21403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a72cbb8d0a99501989edcfd0cb743716"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.1.74', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.pNfc5J}, goog:chromeOptions: {debuggerAddress: localhost:35285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 609def90a29079e75dd064b7e1e3b9e3\n*** Element info: {Using=css selector, value=.login}",
+      "children" : [ {
+        "name" : "Login test with a random account and password after a successful registration",
+        "uid" : "3de68e5d2cb546f8",
+        "parentUid" : "9815bf63605b838e433ed051ebc5b3fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629298702648,
+          "stop" : 1629298723238,
+          "duration" : 20590
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9815bf63605b838e433ed051ebc5b3fc"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.1.74', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.7M41Fo}, goog:chromeOptions: {debuggerAddress: localhost:36895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3ba452135e89e1b647b418d3ec9ae3e8\n*** Element info: {Using=css selector, value=.login}",
+      "children" : [ {
+        "name" : "Logout test after a successful registration test",
+        "uid" : "50628d88f930d3b7",
+        "parentUid" : "ab9d1d5eb453add15dc932bcb8623785",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629298723248,
+          "stop" : 1629298743807,
+          "duration" : 20559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab9d1d5eb453add15dc932bcb8623785"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.1.74', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.0M71EV}, goog:chromeOptions: {debuggerAddress: localhost:37173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9b1c6235e8d448842d35b467945abcd2\n*** Element info: {Using=css selector, value=.login}",
+      "children" : [ {
+        "name" : "Address change test",
+        "uid" : "e728c8e582bbcfba",
+        "parentUid" : "c48f452af7fa5edf7815e2fb345d3432",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629298743835,
+          "stop" : 1629298764441,
+          "duration" : 20606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c48f452af7fa5edf7815e2fb345d3432"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#categories_block_left\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.1.74', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.kzT9Nb}, goog:chromeOptions: {debuggerAddress: localhost:46297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a6a4dd6738d2c3c3610ce8be5b270dbf\n*** Element info: {Using=id, value=categories_block_left}",
+      "children" : [ {
+        "name" : "Scrolling through multiple pages test",
+        "uid" : "bee2434e51bb979f",
+        "parentUid" : "8ac3a08bcf840d19d4bdc0401956bab1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629298809975,
+          "stop" : 1629298840254,
+          "duration" : 30279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ac3a08bcf840d19d4bdc0401956bab1"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.1.74', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.GpNemF}, goog:chromeOptions: {debuggerAddress: localhost:35273}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 482f4f85dc40a53eda1c21df31c74c54\n*** Element info: {Using=css selector, value=.login}",
+      "children" : [ {
+        "name" : "Adding, then removing a product from a wishlist test",
+        "uid" : "9c80bf267fd5ea13",
+        "parentUid" : "191aa233f316f2d8787245d0458b3975",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629298840273,
+          "stop" : 1629298860790,
+          "duration" : 20517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "191aa233f316f2d8787245d0458b3975"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
