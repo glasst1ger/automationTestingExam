@@ -3,14 +3,14 @@ package pages;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.*;
 import java.util.*;
 
 public class LoginPage {
+
+    HomePage homePage;
 
     private final WebDriver driver;
     private final Faker faker = new Faker();
@@ -26,6 +26,8 @@ public class LoginPage {
     private final By REG_SELECT_DATE_OF_BIRTH_DAY = By.id("days");
     private final By REG_SELECT_DATE_OF_BIRTH_MONTHS = By.id("months");
     private final By REG_SELECT_DATE_OF_BIRTH_YEARS = By.id("years");
+    private final By REG_ADDRESS_FIRSTNAME = By.id("firstname");
+    private final By REG_ADDRESS_LASTNAME = By.id("lastname");
     public final By REG_ADDRESS_STREET = By.id("address1");
     public final By REG_ADDRESS_CITY = By.id("city");
     private final By REG_SELECT_STATE = By.id("id_state");
@@ -132,8 +134,6 @@ public class LoginPage {
     }
 
     public void fillOutLoginDetails(String[] accounts) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(LOG_EMAIL));
         driver.findElement(LOG_EMAIL).sendKeys(accounts[0]);
         driver.findElement(LOG_PASSWORD).sendKeys(accounts[1]);
         driver.findElement(LOG_LOGIN_BUTTON).click();

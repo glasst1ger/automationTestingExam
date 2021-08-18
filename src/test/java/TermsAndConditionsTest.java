@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import pages.HomePage;
 import pages.TermsAndConditions;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -14,6 +15,16 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class TermsAndConditionsTest extends Utils {
     WebDriver driver;
+    HomePage homePage = new HomePage(getDriver());
+    TermsAndConditions termsAndConditions;
+
+    {
+        try {
+            termsAndConditions = new TermsAndConditions(getDriver());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 
     @BeforeEach
@@ -24,10 +35,8 @@ public class TermsAndConditionsTest extends Utils {
 
     @Test
     @Order(1)
-    @DisplayName("Find the terms and conditions page test")
-    public void getTermsAndConditions() throws IOException {
-        HomePage homePage = new HomePage(driver);
-        TermsAndConditions termsAndConditions = new TermsAndConditions(driver);
+    @DisplayName("")
+    public void getTermsAndConditions() {
         homePage.navigateToHomePage();
         String URL = termsAndConditions.findTermsAndConditionsPage();
         termsAndConditions.navigateToTermsAndConditionsPage(URL);
@@ -37,10 +46,9 @@ public class TermsAndConditionsTest extends Utils {
 
     @Test
     @Order(2)
-    @DisplayName("Validating correct Terms and Conditions text test")
+    @DisplayName("")
     public void isTermsAndConditionsPageEmpty() throws IOException {
-        HomePage homePage = new HomePage(driver);
-        TermsAndConditions termsAndConditions = new TermsAndConditions(driver);
+
         homePage.navigateToHomePage();
         String URL = termsAndConditions.findTermsAndConditionsPage();
         termsAndConditions.navigateToTermsAndConditionsPage(URL);

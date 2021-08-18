@@ -36,6 +36,7 @@ public class ListScroll {
         List<WebElement> links = linkGroup.findElements(By.tagName("a"));
         for (WebElement linkWebElement : links) {
             String categoryLink = linkWebElement.getAttribute("href");
+            System.out.println(categoryLink);
             categoryLinks.add(categoryLink);
             productsByCategory.add(linkWebElement.getText());
 
@@ -46,11 +47,20 @@ public class ListScroll {
             driver.navigate().to(link);
 
             String productNumber = driver.findElement(PRODUCT_COUNTER).getText();
+            System.out.println(productNumber + ": product counter");
 
             numberOfProducts += Integer.parseInt(productNumber.replaceAll("[\\D]", ""));
+            System.out.println(numberOfProducts + ": number of products");
 
         }
 
     }
 
+    public int numberOfProducts(List<String> productsByCategory) {
+        int numberOfProducts = 0;
+        for (String category : productsByCategory) {
+            numberOfProducts++;
+        }
+        return numberOfProducts;
+    }
 }

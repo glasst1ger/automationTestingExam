@@ -1,4 +1,3 @@
-import io.qameta.allure.Story;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -21,8 +20,7 @@ public class HomePageTest extends Utils {
 
 
     @Test
-    @DisplayName("Website is up and running test")
-    @Story("A user reported that sometimes the website is not available")
+    @DisplayName("Website up and running test")
     public void correctHomePageUrlTest() {
         HomePage homePage = new HomePage(driver);
         driver.get(homePage.getURL());
