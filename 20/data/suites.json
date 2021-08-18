@@ -1,0 +1,159 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "LoginPageTest",
+    "children" : [ {
+      "name" : "Automated registration test with randomized data",
+      "uid" : "b9c36e1e1f54a7bc",
+      "parentUid" : "4c02d1c299d33785fe93a09989ce5979",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629301130777,
+        "stop" : 1629301160684,
+        "duration" : 29907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Login test with a random account and password after a successful registration",
+      "uid" : "ebc534918c4e976f",
+      "parentUid" : "4c02d1c299d33785fe93a09989ce5979",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629301160788,
+        "stop" : 1629301195271,
+        "duration" : 34483
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Logout test after a successful registration test",
+      "uid" : "e0cc13cd0d47ac90",
+      "parentUid" : "4c02d1c299d33785fe93a09989ce5979",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629301195279,
+        "stop" : 1629301215802,
+        "duration" : 20523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4c02d1c299d33785fe93a09989ce5979"
+  }, {
+    "name" : "AccountsTest",
+    "children" : [ {
+      "name" : "Address change test",
+      "uid" : "4c2600c4c087b708",
+      "parentUid" : "29aead5adedc6797e783f577c972f70b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629301215824,
+        "stop" : 1629301236480,
+        "duration" : 20656
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "29aead5adedc6797e783f577c972f70b"
+  }, {
+    "name" : "HomePageTest",
+    "children" : [ {
+      "name" : "Website is up and running test",
+      "uid" : "7ce94d450ba9af33",
+      "parentUid" : "9cbeee9642f9a99daebe33b128ffe5d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629301236509,
+        "stop" : 1629301245765,
+        "duration" : 9256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9cbeee9642f9a99daebe33b128ffe5d4"
+  }, {
+    "name" : "TermsAndConditionsTest",
+    "children" : [ {
+      "name" : "Find the terms and conditions page test",
+      "uid" : "56f0cc59b07d5f15",
+      "parentUid" : "520039d34bc4b5dd0e0d8949c70586fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629301245769,
+        "stop" : 1629301262746,
+        "duration" : 16977
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Validating correct Terms and Conditions text test",
+      "uid" : "b0d104236dec49f1",
+      "parentUid" : "520039d34bc4b5dd0e0d8949c70586fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629301262750,
+        "stop" : 1629301279546,
+        "duration" : 16796
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "520039d34bc4b5dd0e0d8949c70586fa"
+  }, {
+    "name" : "ListScrollTest",
+    "children" : [ {
+      "name" : "Scrolling through multiple pages test",
+      "uid" : "27bf2c52e39996ec",
+      "parentUid" : "89aed3fb08533d8969903582cc172c9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629301279556,
+        "stop" : 1629301325281,
+        "duration" : 45725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "89aed3fb08533d8969903582cc172c9a"
+  }, {
+    "name" : "WishlistTest",
+    "children" : [ {
+      "name" : "Adding, then removing a product from a wishlist test",
+      "uid" : "ab06d006cde55a0b",
+      "parentUid" : "d98ae7b5a8a57feff1c9136a93f222f2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629301325290,
+        "stop" : 1629301400506,
+        "duration" : 75216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Adding a product to wishlist test",
+      "uid" : "edfe7421031cc65",
+      "parentUid" : "d98ae7b5a8a57feff1c9136a93f222f2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629301400512,
+        "stop" : 1629301421013,
+        "duration" : 20501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d98ae7b5a8a57feff1c9136a93f222f2"
+  } ],
+  "name" : "suites"
+}
