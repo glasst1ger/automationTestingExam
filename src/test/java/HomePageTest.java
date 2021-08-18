@@ -7,15 +7,15 @@ import pages.HomePage;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class HomePageTest {
+public class HomePageTest extends Utils {
 
 
     WebDriver driver;
 
     @BeforeEach
     public void setUp() {
-        this.driver = Utils.getDriver();
-        Utils.getWait();
+        this.driver = getDriver();
+        getWait();
     }
 
 
@@ -30,7 +30,7 @@ public class HomePageTest {
 
     @AfterEach
     public void tearDown() {
-        Utils.tearDown();
+        driver.close();
     }
 
 }

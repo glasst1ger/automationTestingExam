@@ -8,27 +8,22 @@ import java.util.concurrent.TimeUnit;
 public class Utils {
     static WebDriver driver;
 
-    public static WebDriver getDriver() {
-        if (driver == null) {
-            WebDriverManager.chromedriver().setup();
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--disable-notifications");
-            options.addArguments("start-maximized");
-            options.addArguments("--no-sandbox");
-            options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--headless");
-            driver = new ChromeDriver(options);
-        }
+    public WebDriver getDriver() {
+
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-notifications");
+        options.addArguments("start-maximized");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
 
 
         return driver;
     }
 
-    public static void getWait() {
+    public void getWait() {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-    }
-
-    public static void tearDown() {
-        driver.close();
     }
 }

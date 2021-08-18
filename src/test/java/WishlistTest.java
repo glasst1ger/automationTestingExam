@@ -1,25 +1,24 @@
 import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
-import pages.HomePage;
 import pages.LoginPage;
 import pages.Wishlist;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class WishlistTest {
+public class WishlistTest extends Utils {
 
     WebDriver driver;
-    LoginPage loginPage = new LoginPage(Utils.getDriver());
-    Wishlist wishlist = new Wishlist(Utils.getDriver());
+    LoginPage loginPage = new LoginPage(getDriver());
+    Wishlist wishlist = new Wishlist(getDriver());
 
 
     @BeforeEach
     public void setUp() {
-        this.driver = Utils.getDriver();
-        Utils.getWait();
+        this.driver = getDriver();
+        getWait();
     }
 
     @Test
@@ -36,9 +35,9 @@ public class WishlistTest {
         loginPage.logout();
     }
 
-    @AfterAll
-    static void tearDown() {
-        Utils.tearDown();
+    @AfterEach
+    public void tearDown() {
+        driver.close();
     }
 
 }

@@ -13,14 +13,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class TermsAndConditionsTest {
+public class TermsAndConditionsTest extends Utils {
     WebDriver driver;
-    HomePage homePage = new HomePage(Utils.getDriver());
+    HomePage homePage = new HomePage(getDriver());
     TermsAndConditions termsAndConditions;
 
     {
         try {
-            termsAndConditions = new TermsAndConditions(Utils.getDriver());
+            termsAndConditions = new TermsAndConditions(getDriver());
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -29,8 +29,8 @@ public class TermsAndConditionsTest {
 
     @BeforeEach
     public void setup() {
-        this.driver = Utils.getDriver();
-        Utils.getWait();
+        this.driver = getDriver();
+        getWait();
     }
 
     @Test
@@ -58,8 +58,8 @@ public class TermsAndConditionsTest {
 
     }
 
-    @AfterAll
-    static void tearDown() {
-        Utils.tearDown();
+    @AfterEach
+    public void tearDown() {
+        driver.close();
     }
 }

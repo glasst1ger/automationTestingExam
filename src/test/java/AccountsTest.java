@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
@@ -6,15 +7,15 @@ import pages.Accounts;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class AccountsTest {
+public class AccountsTest extends Utils {
     WebDriver driver;
-    Accounts accounts = new Accounts(Utils.getDriver());
+    Accounts accounts = new Accounts(getDriver());
 
 
     @BeforeEach
     public void setUp() {
-        this.driver = Utils.getDriver();
-        Utils.getWait();
+        this.driver = getDriver();
+        getWait();
     }
 
     @Test
@@ -31,8 +32,8 @@ public class AccountsTest {
 
     }
 
-    @AfterAll
-    static void tearDown() {
-        Utils.tearDown();
+    @AfterEach
+    public void tearDown() {
+        driver.close();
     }
 }
