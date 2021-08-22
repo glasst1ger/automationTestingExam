@@ -34,6 +34,7 @@ public class AccountsTest extends Utils {
 
 
         assertTrue(address.contains(accounts.TEST_CITY_ADDRESS));
+        assertTrue(address.contains(accounts.TEST_STREET_ADDRESS));
 
         accounts.randomizeAddress();
 

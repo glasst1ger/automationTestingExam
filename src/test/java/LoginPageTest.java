@@ -48,7 +48,7 @@ public class LoginPageTest extends Utils {
 
     @Test
     @Order(3)
-    @DisplayName("Logout test after a successful registration test")
+    @DisplayName("Logout test after a successful login test")
     public void logoutTest() {
         LoginPage loginPage = new LoginPage(driver);
         HomePage homePage = new HomePage(driver);
