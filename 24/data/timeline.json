@@ -1,0 +1,143 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az72-349",
+    "children" : [ {
+      "name" : "4251@fv-az72-349.ForkJoinPool-1-worker-3(16)",
+      "children" : [ {
+        "name" : "Automated registration test with randomized data",
+        "uid" : "605317d1ae02ba41",
+        "parentUid" : "2d33e723d766f270d5e4555128c8714f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629645438894,
+          "stop" : 1629645446073,
+          "duration" : 7179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Validating correct Terms and Conditions text test",
+        "uid" : "737bc7190ba67da0",
+        "parentUid" : "2d33e723d766f270d5e4555128c8714f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629645471270,
+          "stop" : 1629645473563,
+          "duration" : 2293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login test with a random account and password after a successful registration",
+        "uid" : "1f287511ab87645b",
+        "parentUid" : "2d33e723d766f270d5e4555128c8714f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629645446159,
+          "stop" : 1629645451657,
+          "duration" : 5498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Find the terms and conditions page test",
+        "uid" : "ffba6aa8a67eda98",
+        "parentUid" : "2d33e723d766f270d5e4555128c8714f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629645469378,
+          "stop" : 1629645471266,
+          "duration" : 1888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adding, then removing a product from a wishlist test",
+        "uid" : "7d2e5fb45989d503",
+        "parentUid" : "2d33e723d766f270d5e4555128c8714f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629645480643,
+          "stop" : 1629645511578,
+          "duration" : 30935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Scrolling through multiple pages test",
+        "uid" : "5060f3dfabfd981d",
+        "parentUid" : "2d33e723d766f270d5e4555128c8714f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629645473570,
+          "stop" : 1629645480639,
+          "duration" : 7069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout test after a successful login test",
+        "uid" : "83d6d346ea650fc3",
+        "parentUid" : "2d33e723d766f270d5e4555128c8714f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629645451660,
+          "stop" : 1629645458587,
+          "duration" : 6927
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adding a product to wishlist test",
+        "uid" : "3b3abf518f11cf55",
+        "parentUid" : "2d33e723d766f270d5e4555128c8714f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629645511580,
+          "stop" : 1629645518314,
+          "duration" : 6734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Address change test",
+        "uid" : "b2813925dc67c2cf",
+        "parentUid" : "2d33e723d766f270d5e4555128c8714f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629645458599,
+          "stop" : 1629645467790,
+          "duration" : 9191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Website is up and running test",
+        "uid" : "3cc644de9551a28c",
+        "parentUid" : "2d33e723d766f270d5e4555128c8714f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629645467803,
+          "stop" : 1629645469372,
+          "duration" : 1569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d33e723d766f270d5e4555128c8714f"
+    } ],
+    "uid" : "4d69192d44bac573ff6a372fde317bb2"
+  } ],
+  "name" : "timeline"
+}
